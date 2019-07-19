@@ -18,7 +18,7 @@
 
 RETVAL=0
 prog="dropbear"
-OPTIONS="-p 442"
+OPTIONS="-p 444"
 # Some functions to make the below more readable
 KEYGEN=/usr/bin/dropbearkey
 DROPBEAR=/usr/sbin/dropbear
