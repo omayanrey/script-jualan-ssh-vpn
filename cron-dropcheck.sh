@@ -5,7 +5,7 @@ if [ -e "${PFILE}" ] && (ps -p $(cat ${PFILE}) > /dev/null); then
         service dropbear status
         exit
 else
-        echo "proses tidak berjalan, restarting..."
+        echo "The process isnt running, restarting..."
         service dropbear restart
         exit 0
 fi
