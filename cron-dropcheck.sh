@@ -1,7 +1,7 @@
 #!/bin/sh
 PFILE=/var/run/dropbear.pid
 if [ -e "${PFILE}" ] && (ps -p $(cat ${PFILE}) > /dev/null); then
-        echo "proses sedang berjalan..."
+        echo "the process is running..."
         service dropbear status
         exit
 else
